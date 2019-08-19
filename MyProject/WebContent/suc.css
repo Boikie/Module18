@@ -1,0 +1,95 @@
+* {
+	box-sizing: border-box;
+}
+
+.menu {
+	float: left;
+	width: 20%;
+	text-align: center;
+}
+
+.menu a {
+	background-color: #9de1e1;
+	padding: 13px;
+	margin-top: 12px;
+	display: block;
+	width: 100%;
+	color: green;
+	border: 2px solid blue;
+	border-radius: 7px;
+	opacity: 0.9;
+	filter: alpha(opacity=200);
+	font-weight: bold;
+}
+
+.men a {
+	padding: 25px;
+	width: 100%;
+	text-align: bottom;
+}
+
+.main {
+	
+	float: left;
+	width: 60%;
+	padding: 0 20px;
+}
+
+.right {
+	background-color: #169fb8;
+	float: left;
+	width: 20%;
+	padding: 100px;
+	margin-top: 7px;
+	text-align: center;
+	border: 2px solid blue;
+	border-radius: 7px;
+	opacity: 0.9;
+	filter: alpha(opacity=200);
+	font-weight: bold;
+}
+U{
+	background-color: #169fb8;
+	width: 8%;
+	padding: 10px;
+	margin-top: 7px;
+	text-align: center;
+	border: 2px solid #ca04ca;
+	border-radius: 5px;
+	opacity: 0.9;
+	filter: alpha(opacity=200);
+	font-weight: bold;
+}
+
+@media only screen and (max-width:620px) {
+	/* For mobile phones: */
+	.menu, .main, .right {
+		width: 100%;
+	}
+}
+
+
+body {
+	background-image: url("butter.jpg");
+	background-repeat: repeat;
+  background-attachment: fixed;
+  background-blend-mode: multiply
+}
+
+h1 {
+	padding: 30px;
+	font-family: Georgia;
+	text-shadow: 2px 2px 2px green;
+	color:orange;
+  	border: 2px solid blue;
+  	border-radius: 7px;
+  	text-shadow: 2px 2px 2px white;
+}
+img{
+  border-radius: 4px;
+  padding: 5px;
+  width: 150px;
+}
+img:hover {
+  box-shadow: 0 0 2px 1px rgba(0, 140, 186, 0.5);
+}
